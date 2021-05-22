@@ -1,0 +1,144 @@
+html {
+    height: 100%;
+}
+body {
+    
+    width: 95vw;
+    height: 100%;
+}
+
+header {
+    border-bottom-style: inset;
+    border-color: darkolivegreen;
+}
+
+
+.meni {
+    
+    height: 40px;
+    display: flex;
+    align-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+
+}
+
+
+ol {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    
+    width: 380px;
+}
+
+.levo {
+    padding: 0;
+    display: flex;
+    height: 30px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.desno {
+    background-color: blanchedalmond;
+    border-radius: 50px;
+    height: 30px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cyan;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.glavno {
+    
+    margin: 0;
+    padding: 0;
+    height: 80vhvh;
+    background-image: url("images/AndrazKamnolom.jpg");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-size: contain;                      
+    background-repeat:   no-repeat;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    
+    
+}
+
+.leva_stran_slike {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 0;
+    
+    width: 520px;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+}
+
+.desna_stran_slike {
+    display: flex;
+    justify-content: start;
+    padding: 10px;
+    margin: 0;
+    
+    width: 520px;
+    background-color: black;
+    color: blanchedalmond;
+    box-sizing: border-box;
+}
+
+.orodna {
+    
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+img {
+    padding: 0;
+    margin: 0;
+    height: 30px;
+    width: 30px;
+}
+
+p {
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
