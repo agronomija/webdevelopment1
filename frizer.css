@@ -1,0 +1,109 @@
+.ac-bg {
+  background-color: hotpink;
+}
+
+.ac-centriranje {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ac-row-border {
+  border-style: inset;
+  border-width: 0.5px;
+
+}
+
+.ac-border-col {
+  border-right: inset black;
+  border-width: 1px;
+}
+
+.ac-logo {
+  height: 30px;
+  width: 30px;
+}
+
+.ac-pisava-fat {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.ac-pisava-thin {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.ac-con-carousel-height {
+  height: 500px;
+}
+
+.skarje-img {
+  
+  background-image: url("skarje.jpeg");
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.img1 {
+  height: 200px;
+  width: 400px;
+  
+  border-style: inset;
+  border-width: 2px;
+  border-color: black;
+}
+
+
+.h1-pos {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+}
+
+.ac-body-bg {
+  background-image: url('C:\Users\Andraz\Desktop\VisualstudioCodeprojekti\Haircut salon\haircut.jpeg');
+
+   /* Full height */
+   height: 100%;
+
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: repeat;
+   background-size: cover;
+}
+
+.text-middle {
+  display: flex;
+  justify-content: center;
+}
+
+.obrazec {
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.vpis {
+  margin: 3px;
+}
+
+.crta {
+  border-bottom: inset 1px black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  
+}
+
+p {
+  height: 10px;
+}
+
+.podatki {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center;
+}
